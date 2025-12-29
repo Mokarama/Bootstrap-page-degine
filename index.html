@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- =====FONTAWESOME LINK======= -->
+    <script
+      src="https://kit.fontawesome.com/f2e7210208.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Home page</title>
+  </head>
+  <body>
+    <header>
+      <!-- =========NAVBAR AREA======== -->
+      <nav class="navbar navbar-expand-lg bg-black text-black py-5">
+        <div class="container-fluid">
+          <img class="rounded-circle" src="./images/logo1.png" alt="" />
+          <a class="text-white fs-6 mx-4 fw-bold" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-4 text-white active text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-4 text-white active text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  >Racing</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-4 text-white active text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  >Sports cars</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-4 text-white active text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  >Collections</a
+                >
+              </li>
+
+              <li class="nav-item ml">
+                <a
+                  class="nav-link mx-4 text-white active text-uppercase"
+                  aria-current="page"
+                  href="#"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   
+
+    <main>
+      <!-- =======BANNER SECTION====== -->
+      <section>
+         <img class="img-fluid position-relative" src="./images/banner.jpg" alt="" />
+        <div
+          class="position-absolute border-2 bottom-50 top-50 d-flex flex-column justify-content-center align-content-center"
+        >
+          <h4 class="text-center text-white">PERSONALISATION PROGRAMME</h4>
+          <h1 class="text-center mt-4 text-white">CREATE YOUR OWN FERRARI</h1>
+          <p class="text-center fs-6 mt-3">
+            <i class="fa-solid fa-angles-down text-white"></i>
+          </p>
+        </div>
+      </section>
+
+      <!-- ====ATELIER==== -->
+      <section>
+        <div
+          class=""
+        >
+          <h4 class="text-center fs-5 mt-5">
+            EVERY FERRARI IS UNIQUE. MAKE YOUR MODEL UNIQUELY YOURS
+          </h4>
+          <p class="text-center mt-5">
+            EVERY FERRARI IS UNIQUE. MAKE YOUR MODEL UNIQUELY YOURS In the early
+            days, Ferrari clients had huge freedom of choice in terms of
+            fabrics, leathers, woods, colours and finishes, resulting in some
+            genuinely one-off creations tailored minutely to individual tastes
+            and desires.
+          </p>
+          <p class="text-center  mb-4">
+            Today Ferrari maintains this tradition, offering a range of programmes that enable every last detail of clients’ cars to be tailored according to their personal taste using the Configurator Tool, before selecting one of our special customisation programmes to meet their individual requirements.
+          </p>
+
+          <p class="text-center mb-5">CHOOSE A MODEL AND BUILD YOUR OWN   <i class="fa-solid fa-chevron-right mx-4 fs-6"></i></p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
